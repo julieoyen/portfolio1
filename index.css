@@ -1,0 +1,159 @@
+body{
+    background-color: #2541B2;
+}
+h1, h2{
+    font-family: 'Kavivanar', sans-serif;
+    color: white;
+}
+
+h1{
+    font-size: 32px;
+}
+
+h2{
+    font-size: 20px;
+}
+p{
+    font-family: 'Arvo', sans-serif;
+    color: white;
+    font-size: 15px;
+}
+
+.first{
+    display: flex;
+    justify-content: space-between;
+}
+
+#info{
+    margin-top: 100px;
+    padding-left: 50px;
+}
+
+#julieDiv{
+    margin-top: 100px;
+}
+
+#julieIMG{
+    max-width: 150px;
+    height: auto;
+    object-fit: cover;
+}
+
+.link{
+    background-color:#2541B2 ;
+    color: white;
+    text-decoration: none;
+    box-shadow: none;
+    border-style: none;
+}
+
+.projectImgSize{
+    max-width: 350px;
+}
+
+#projectsH1{
+    margin: 50px;
+}
+.projects{
+    display: flex;
+    flex-direction: column;
+}
+
+.projectImg{
+text-align: center;
+}
+
+.projectInfo{
+    padding-left: 20px;
+    margin-bottom: 100px;
+}
+
+button{
+    cursor: pointer;
+    font-size: 17px;
+}
+
+button:hover{
+    font-style: italic;
+}
+
+@media only screen and (min-width: 600px) {
+body{
+    background-color: #2541B2;
+}
+h1, h2{
+    font-family: 'Kavivanar', sans-serif;
+    color: white;
+}
+
+h1{
+    font-size: 48px;
+}
+
+h2{
+    font-size: 30px;
+}
+p{
+    font-family: 'Arvo', sans-serif;
+    color: white;
+    font-size: 18px;
+}
+
+.first{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+#info p{
+max-width: 350px;
+
+}
+
+#info{
+    margin-top: 100px;
+    padding-left: 250px;
+}
+
+#julieDiv{
+    margin-top: 100px;
+    margin-right: 350px;
+}
+
+#julieIMG{
+    max-width: 350px;
+    height: auto;
+    object-fit: cover;
+}
+
+.link{
+    background-color:#2541B2 ;
+    color: white;
+    text-decoration: none;
+    box-shadow: none;
+    border-style: none;
+}
+#projectsH1{
+    margin: 50px;
+    padding-left: 250px;
+}
+.projects{
+    display: flex;
+    flex-direction: row;
+    padding-left: 250px;
+}
+
+.projectImgSize{
+    max-width: 550px;
+}
+
+.projectImg{
+margin: 50px;
+}
+
+.projectInfo{
+    margin-top: 50px;
+    margin-left: 250px;
+    margin-right: 250px ;
+}
+}
