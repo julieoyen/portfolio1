@@ -1,72 +1,152 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" href="images/julie.png" type="image/png" />
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="index.css" />
     <script src="index.js" defer></script>
     <title>Portfolio - Julie Øyen</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Kavivanar&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/94f8d6093f.js" crossorigin="anonymous"></script>
-</head>
-<body>
-    <div class="first">
-    <div id="info">
-    <h1>Julie Øyen</h1>
-    <h2>Junior Front End Developer</h2>
-    <p>Based in Oslo, I have expertise in <b>HTML, CSS, JavaScript, and Figma</b> , dedicated to crafting responsive, accessible and ✨visually appealing✨ web applications.</p>
-</div>
-<div id="julieDiv">
-<img id="julieIMG" src="images/julie.png" alt="Picture of Julie Øyen">
-</div>
-</div>
-<div>
-<h1 id="projectsH1">Projects</h1>
-<div class="projects">
-    <div class="projectImg"><img class="projectImgSize"  src="images/index.gif" alt="Gif of home page of blog"></div>
-    <div class="projectInfo"><h2>Build a food blog</h2>
-    <p>Assignment: Make a blog for a customer of your choice.</p>
-    <p>Exam project of year 1.</p>
-    <button id="foodBlogGithub" class="link">Github <i class="fa-solid fa-arrow-up-right-from-square"></i></button> 
-    <button id="foodBlogLive" class="link">Live <i class="fa-solid fa-arrow-up-right-from-square"></i></i></button>
-    <div class="usedPrograms">
-        <p class="javascript">Javascript</p>
-        <p class="html">HTML</p>
-        <p class="css">CSS</p>
-    </div>
-</div>
-</div>
-<div class="projects">
-    <div class="projectImg"><img class="projectImgSize" src="images/agency1.gif" alt="Gif of home page of blog"></div>
-    <div class="projectInfo"><h2>Build a quiz page</h2>
-    <p>Assignment: Collaborate in a group of 5 people, and make a page together, using scrum and github.</p>
-    <p>Exam project of year 1.</p>
-    <button id="agencyGithub" class="link">Github <i class="fa-solid fa-arrow-up-right-from-square"></i></button> 
-    <button id="agencyLive" class="link">Live <i class="fa-solid fa-arrow-up-right-from-square"></i></i></button>
-    <div class="usedPrograms">
-        <p class="javascript">Javascript</p>
-        <p class="html">HTML</p>
-        <p class="css">CSS</p>
-    </div>
-</div>
-</div>
-<div class="projects">
-    <div class="projectImg"><img class="projectImgSize"  src="images/semesterproject.gif" alt="Gif of home page of semester project"></div>
-    <div class="projectInfo"><h2>Build science museum home page</h2>
-    <p>Assignment: Make a blog for a customer of your choice.</p>
-    <p>First semester project in year 1.</p>
-    <button id="scienceMuseumGithub" class="link">Github <i class="fa-solid fa-arrow-up-right-from-square"></i></button> 
-    <button id="scienceMuseumLive" class="link">Live <i class="fa-solid fa-arrow-up-right-from-square"></i></i></button>
-    <div class="usedPrograms">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Kavivanar&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/94f8d6093f.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header class="header" id="myHeader">
+      <div>
+        <h1>Julie Øyen</h1>
+        <div id="headerContact" class="contactInfo">
+          <button id="headerMail" class="contact">
+            <i class="fa-regular fa-envelope"></i>
+          </button>
+          <button id="headerLi" class="contact">
+            <i class="fa-brands fa-linkedin"></i>
+          </button>
+        </div>
+      </div>
+    </header>
 
-        <p class="html">HTML</p>
-        <p class="css">CSS</p>
+    <div class="first">
+      <div id="info">
+        <h2>Junior Front End Developer</h2>
+        <p id="infoP">
+          Based in Oslo, I have expertise in
+          <b>HTML, CSS, JavaScript, and Figma</b> , dedicated to crafting
+          responsive, accessible and ✨visually appealing✨ web applications.
+        </p>
+        <p id="desktopText">
+          My focus is on ensuring that every web project not only looks stunning
+          but also functions seamlessly across all devices. With a keen eye for
+          design and a commitment to web standards, I strive to create
+          user-friendly interfaces that offer good user experience.
+        </p>
+      </div>
+      <div id="julieDiv">
+        <img id="julieIMG" src="images/julie.png" alt="Picture of Julie Øyen" />
+      </div>
     </div>
-</div>
-</div>
-</body>
+
+    <div>
+      <h1 id="projectsH1">Projects</h1>
+      <div class="projects">
+        <div class="projectImg">
+          <img
+            class="projectImgSize"
+            src="images/index.gif"
+            alt="Gif of home page of blog"
+          />
+        </div>
+        <div class="projectInfo">
+          <div class="usedPrograms">
+            <p class="javascript">Javascript</p>
+            <p class="html">HTML</p>
+            <p class="css">CSS</p>
+          </div>
+          <h2>Build a food blog</h2>
+          <p>Assignment: Make a blog for a customer of your choice.</p>
+          <p>Exam project of year 1.</p>
+          <button id="foodBlogGithub" class="link">
+            Github <i class="fa-solid fa-arrow-up-right-from-square"></i>
+          </button>
+          <button id="foodBlogLive" class="link">
+            Live <i class="fa-solid fa-arrow-up-right-from-square"></i>
+          </button>
+        </div>
+      </div>
+
+      <div class="projects">
+        <div class="projectImg">
+          <img
+            class="projectImgSize"
+            src="images/agency1.gif"
+            alt="Gif of home page of blog"
+          />
+        </div>
+        <div class="projectInfo">
+          <div class="usedPrograms">
+            <p class="javascript">Javascript</p>
+            <p class="html">HTML</p>
+            <p class="css">CSS</p>
+          </div>
+          <h2>Build a quiz page</h2>
+          <p>
+            Assignment: Collaborate in a group of 5 people, and make a page
+            together, using scrum and github.
+          </p>
+          <p>Exam project of year 1.</p>
+          <button id="agencyGithub" class="link">
+            Github <i class="fa-solid fa-arrow-up-right-from-square"></i>
+          </button>
+          <button id="agencyLive" class="link">
+            Live <i class="fa-solid fa-arrow-up-right-from-square"></i>
+          </button>
+        </div>
+      </div>
+
+      <div class="projects">
+        <div class="projectImg">
+          <img
+            class="projectImgSize"
+            src="images/semesterproject.gif"
+            alt="Gif of home page of semester project"
+          />
+        </div>
+        <div class="projectInfo">
+          <div class="usedPrograms">
+            <p class="html">HTML</p>
+            <p class="css">CSS</p>
+          </div>
+          <h2>Build science museum home page</h2>
+          <p>Assignment: Make a blog for a customer of your choice.</p>
+          <p>First semester project in year 1.</p>
+          <button id="scienceMuseumGithub" class="link">
+            Github <i class="fa-solid fa-arrow-up-right-from-square"></i>
+          </button>
+          <button id="scienceMuseumLive" class="link">
+            Live <i class="fa-solid fa-arrow-up-right-from-square"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="footer">
+        <div id="footerText"><h3>Let's make something great together</h3></div>
+        <div class="contactInfo">
+          <button class="contact">
+            Send me an email <i class="fa-regular fa-envelope"></i>
+          </button>
+          <button class="contact"><i class="fa-brands fa-linkedin"></i></button>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>

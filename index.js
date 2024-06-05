@@ -13,7 +13,7 @@ document.getElementById("agencyGithub").addEventListener("click", function () {
 });
 
 document.getElementById("agencyLive").addEventListener("click", function () {
-  window.open("https://app.netlify.com/sites/quizaholics/overview", "_blank");
+  window.open("https://quizaholics.netlify.app/", "_blank");
 });
 
 document
@@ -27,3 +27,19 @@ document
   .addEventListener("click", function () {
     window.open("https://github.com/julieoyen/CA-js1-Julie-Oyen", "_blank");
   });
+
+window.onscroll = function () {
+  myFunction();
+};
+
+var header = document.getElementById("myHeader");
+
+var sticky = header.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}
