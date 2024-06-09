@@ -1,395 +1,376 @@
-body{
+body {
     background-color: #2541B2;
-}
-
-
-h1, h2, h3{
+  }
+  
+  h1, h2, h3 {
     font-family: 'Kavivanar', sans-serif;
     color: white;
-}
-
-h1{
+  }
+  
+  h1 {
     font-size: 32px;
-}
-
-h2{
+  }
+  
+  h2 {
     font-size: 20px;
     margin-top: 0px;
-}
-
-h3{
-    font-size: 18px;}
-p{
+  }
+  
+  h3 {
+    font-size: 18px;
+  }
+  
+  p {
     font-family: 'Arvo', sans-serif;
     color: white;
     font-size: 15px;
-}
-
-.header {
-    padding-left: 20px;
-    color: #f1f1f1;
-    background-color: #2541B2;
   }
-
-  .header h1{
+  
+  .header h1 {
     margin-bottom: 0;
   }
   
-
-.first{
+  .first {
     display: flex;
     justify-content: space-between;
     margin-left: 20px;
     margin-right: 20px;
-
-}
-#infoP{
+  }
+  
+  #infoP {
     min-width: 150px;
-}
-#julieIMG{
+  }
+  
+  #julieIMG {
     max-width: 150px;
     height: auto;
     margin-left: 20px;
     object-fit: cover;
-}
-
-.link{
-    background-color:#2541B2 ;
+  }
+  
+  .link {
+    background-color: #2541B2;
     color: white;
     text-decoration: none;
     box-shadow: none;
     border-style: none;
-}
-#projectsH1{
+  }
+  
+  #projectsH1 {
     padding-left: 20px;
-}
-.projectImgSize{
+  }
+  
+  .projectImgSize {
     max-width: 350px;
-}
-
-.projects{
+  }
+  
+  .projects {
     display: flex;
     flex-direction: column;
     margin-left: 20px;
     margin-right: 20px;
-}
-
-.projectImg{
+  }
+  
+  .projectImg {
     text-align: center;
     cursor: pointer;
-}
-
-.projectInfo{
+  }
+  
+  .projectInfo {
     margin-bottom: 100px;
-}
-
-button{
+  }
+  
+  button {
     cursor: pointer;
     font-size: 20px;
     margin-bottom: 10px;
-
-}
-
-button:hover{
+  }
+  
+  button:hover {
     font-style: italic;
-}
-
-.projectImgSize {
+  }
+  
+  .projectImgSize {
     width: auto;
     height: auto;
     text-align: center;
     justify-content: center;
-    
-}
-
-.usedPrograms{
+  }
+  
+  .usedPrograms {
     display: flex;
-}
-
-.javascript, .css, .html{
+  }
+  
+  .javascript, .css, .html {
     padding: 5px 10px;
-    border: 1px solid ;
+    border: 1px solid;
     border-radius: 50px;
     margin: 10px 5px;
-}
-
-footer{
+  }
+  
+  footer {
     padding: 50px 10px;
     margin: 0px 20px;
     border-top: solid 1px white;
-}
-
-.footer{
+  }
+  
+  .footer {
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
-}
-
-.contactInfo{
-    display: flex; 
-    justify-content: center;  
+  }
+  
+  .contactInfo {
+    display: flex;
+    justify-content: center;
     text-align: center;
-
-
-}
-
-.contact{
+  }
+  
+  .contact {
     font-size: 15px;
     border-radius: 50px;
     padding: 5px 10px;
     background-color: transparent;
     color: white;
     border-style: none;
-}
-
-
-@media screen and (max-width: 1000px) {
+  }
+  
+  @media screen and (max-width: 1000px) {
     #desktopText {
-        display: none;
+      display: none;
     }
-    #headerContact{
-        display: none;
+    #headerContact {
+      display: none;
     }
-}
-@media screen and (min-width: 1001px) {
-
-        #headerMail{
-            margin-right: 0px;
-        }
-        
-        #headerLi{
-            margin-left: 0px;
-        } 
-
-        .header{
-            display: flex;
-            flex-direction: row;
-
-        }
-
- .header {
-    padding: 10px 16px;
-    color: #f1f1f1;
-    background-color: transparent;
   }
   
-
-  .content {
-    padding: 16px;
-  }
-  
-  .sticky {
-    position: fixed;
+  @media screen and (min-width: 1001px) {
+      /* Make the header sticky */
+  .header {
+    position: -webkit-sticky; /* For Safari */
+    position: sticky;
     top: 0;
-    width: 100%
-  }
-  .sticky + .content {
-    padding-top: 102px;
-  } 
-}
-
-
-
-@media screen and (min-width: 1300px){
-
-    h1, h2{
-    font-family: 'Kavivanar', sans-serif;
-    color: white;
-}
-
-h1{
-    font-size: 48px;
-}
-
-h2{
-    font-size: 30px;
-}
-p{
-    font-family: 'Arvo', sans-serif;
-    color: white;
-    font-size: 18p;
-}
-
-button{
-    font-size: 20px;
-
-}
-
-.first{
-    display: flex;
-    justify-content: space-between;
-    margin-left: 250px;
-    margin-right: 250px;
-}
-
-#info p{
-max-width: 350px;
-
-}
-
-#julieIMG{
-    max-width: 350px;
-    height: auto;
-    object-fit: cover;
-    margin-top: 0;
-}
-
-.link{
-    background-color:#2541B2 ;
-    color: white;
-    text-decoration: none;
-    box-shadow: none;
-    border-style: none;
-}
-#projectsH1{
-    padding-left: 250px;
-    padding-right: 250px;
-}
-.projects{
-    display: flex;
-    flex-direction: row;
-    padding-left: 250px;
-    padding-right: 250px;
-    margin-top: 50px;
-    margin-left: 0;
-    margin-right: 0;
-}
-
-.projectImgSize{
-    max-width: 550px;
-}
-
-.projectImg{
-margin-top: 50px;
-}
-
-.projectInfo{
-    margin-top: 50px;
-    margin-left: 50px;
-
-}
-}
-
-@media screen and (min-width: 1920px) {
-
- .header {
-    padding: 10px 16px;
-    color: #f1f1f1;
-    background-color: transparent;
+    z-index: 1000; /* Ensure it stays on top of other content */
+    background-color: #2541B2; /* Retain the background color */
+    padding: 10px 16px; /* Add padding for better appearance */
   }
   
-
-  .content {
-    padding: 16px;
+    #headerMail {
+      margin-right: 0px;
+    }
+    
+    #headerLi {
+      margin-left: 0px;
+    } 
+    
+    .header {
+      display: flex;
+      flex-direction: row;
+    }
+    
+    .header {
+      padding: 10px 16px;
+      color: #f1f1f1;
+      background-color: transparent;
+    }
+    
+    .content {
+      padding: 16px;
+    }
   }
   
-  .sticky {
-    position: fixed;
-    top: 0;
-    width: 100%
+  @media screen and (min-width: 1300px) {
+    h1, h2 {
+      font-family: 'Kavivanar', sans-serif;
+      color: white;
+    }
+    
+    h1 {
+      font-size: 48px;
+    }
+    
+    h2 {
+      font-size: 30px;
+    }
+    
+    p {
+      font-family: 'Arvo', sans-serif;
+      color: white;
+      font-size: 18px;
+    }
+    
+    button {
+      font-size: 20px;
+    }
+    
+    .first {
+      display: flex;
+      justify-content: space-between;
+      margin-left: 250px;
+      margin-right: 250px;
+    }
+    
+    #info p {
+      max-width: 350px;
+    }
+    
+    #julieIMG {
+      max-width: 350px;
+      height: auto;
+      object-fit: cover;
+      margin-top: 0;
+    }
+    
+    .link {
+      background-color: #2541B2;
+      color: white;
+      text-decoration: none;
+      box-shadow: none;
+      border-style: none;
+    }
+    
+    #projectsH1 {
+      padding-left: 250px;
+      padding-right: 250px;
+    }
+    
+    .projects {
+      display: flex;
+      flex-direction: row;
+      padding-left: 250px;
+      padding-right: 250px;
+      margin-top: 50px;
+      margin-left: 0;
+      margin-right: 0;
+    }
+    
+    .projectImgSize {
+      max-width: 550px;
+    }
+    
+    .projectImg {
+      margin-top: 50px;
+    }
+    
+    .projectInfo {
+      margin-top: 50px;
+      margin-left: 50px;
+    }
   }
-  .sticky + .content {
-    padding-top: 102px;
-  } 
-body{
-    background-color: #2541B2;
-}
-header{
-    display: flex;
-    flex-direction: row;
-
-    padding-left: 350px;
-}
-h1, h2{
-    font-family: 'Kavivanar', sans-serif;
-    color: white;
-}
-
-h1{
-    font-size: 48px;
-}
-
-h2{
-    font-size: 30px;
-}
-p{
-    font-family: 'Arvo', sans-serif;
-    color: white;
-    font-size: 18p;
-}
-
-button{
-    font-size: 20px;
-}
-
-.first{
-    display: flex;
-    justify-content: space-between;
-    margin-left: 350px;
-    margin-right: 350px;
-}
-
-#info p{
-max-width: 350px;
-}
-
-
-#julieIMG{
-    max-width: 350px;
-    height: auto;
-    object-fit: cover;
-}
-
-.link{
-    background-color:#2541B2 ;
-    color: white;
-    text-decoration: none;
-    box-shadow: none;
-    border-style: none;
-}
-#projectsH1{
-    padding-left: 350px;
-    padding-right: 350px;
-}
-.projects{
-    display: flex;
-    flex-direction: row;
-    padding-left: 350px;
-    padding-right: 350px;
-    margin-top: 50px;
-    margin-left: 0;
-    margin-right: 0;
-}
-
-.projectImgSize{
-    max-width: 550px;
-}
-
-.projectImg{
-margin-top: 50px;
-}
-
-.projectInfo{
-    margin-top: 50px;
-    margin-left: 250px;
-
-}
-footer{
-    padding: 50px;
-    margin: 0px 200px;
-    border-top: solid 1px white;
-
-}
-
-.contactInfo{
-    display: flex;     
-}
-
-.contact{
-    font-size: 15px;
-    border-radius: 50px;
-    padding: 5px 10px;
-    margin: 0px 10px;
-}
-}
+  
+  @media screen and (min-width: 1920px) {
+    .header {
+      padding: 10px 16px;
+      color: #f1f1f1;
+      background-color: transparent;
+    }
+    
+    .content {
+      padding: 16px;
+    }
+    
+    body {
+      background-color: #2541B2;
+    }
+    
+    header {
+      display: flex;
+      flex-direction: row;
+      padding-left: 350px;
+    }
+    
+    h1, h2 {
+      font-family: 'Kavivanar', sans-serif;
+      color: white;
+    }
+    
+    h1 {
+      font-size: 48px;
+    }
+    
+    h2 {
+      font-size: 30px;
+    }
+    
+    p {
+      font-family: 'Arvo', sans-serif;
+      color: white;
+      font-size: 18px;
+    }
+    
+    button {
+      font-size: 20px;
+    }
+    
+    .first {
+      display: flex;
+      justify-content: space-between;
+      margin-left: 350px;
+      margin-right: 350px;
+    }
+    
+    #info p {
+      max-width: 350px;
+    }
+    
+    #julieIMG {
+      max-width: 350px;
+      height: auto;
+      object-fit: cover;
+    }
+    
+    .link {
+      background-color: #2541B2;
+      color: white;
+      text-decoration: none;
+      box-shadow: none;
+      border-style: none;
+    }
+    
+    #projectsH1 {
+      padding-left: 350px;
+      padding-right: 350px;
+    }
+    
+    .projects {
+      display: flex;
+      flex-direction: row;
+      padding-left: 350px;
+      padding-right: 350px;
+      margin-top: 50px;
+      margin-left: 0;
+      margin-right: 0;
+    }
+    
+    .projectImgSize {
+      max-width: 550px;
+    }
+    
+    .projectImg {
+      margin-top: 50px;
+    }
+    
+    .projectInfo {
+      margin-top: 50px;
+      margin-left: 250px;
+    }
+    
+    footer {
+      padding: 50px;
+      margin: 0px 200px;
+      border-top: solid 1px white;
+    }
+    
+    .contactInfo {
+      display: flex;
+    }
+    
+    .contact {
+      font-size: 15px;
+      border-radius: 50px;
+      padding: 5px 10px;
+      margin: 0px 10px;
+    }
+  }
+  
