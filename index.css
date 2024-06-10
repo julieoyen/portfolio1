@@ -101,13 +101,6 @@ body {
     display: flex;
   }
   
-  .javascript, .css, .html {
-    padding: 5px 10px;
-    border: 1px solid;
-    border-radius: 50px;
-    margin: 10px 5px;
-  }
-  
   footer {
     padding: 50px 10px;
     margin: 0px 20px;
@@ -143,17 +136,33 @@ body {
     #headerContact {
       display: none;
     }
+    .header h1 {
+        margin-left: 20px;
+      }
+ 
+  .javascript, .css, .html, .figma {
+    padding: 5px 10px;
+    border: 1px solid;
+    border-radius: 50px;
+    margin: 10px 5px;
+  }
   }
   
   @media screen and (min-width: 1001px) {
-      /* Make the header sticky */
   .header {
-    position: -webkit-sticky; /* For Safari */
+    position: -webkit-sticky;
     position: sticky;
     top: 0;
-    z-index: 1000; /* Ensure it stays on top of other content */
-    background-color: #2541B2; /* Retain the background color */
-    padding: 10px 16px; /* Add padding for better appearance */
+    z-index: 1000; 
+    background-color: #2541B2;
+    padding: 10px 16px;
+  }
+  .javascript, .css, .html, .figma {
+    padding: 5px 10px;
+    border: 1px solid;
+    border-radius: 50px;
+    margin-top: 0px;
+    margin: 0px 10px 10px 0px
   }
   
     #headerMail {
@@ -353,7 +362,7 @@ body {
     
     .projectInfo {
       margin-top: 50px;
-      margin-left: 250px;
+      margin-left: 150px;
     }
     
     footer {
